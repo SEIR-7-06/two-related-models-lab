@@ -10,7 +10,7 @@
 1. For example, if your models were `Singer` and `Song`: 
   * A `Singer` would "contain" `Song`s (just like an `Author` "contains" `Article`s)
 
->See below for details
+>See below for details.  When we refer to `Singer` we mean whichever of your models form yesterday contains your other model.  Similarly, when we refer to `Song` we refer to the model that is contained by the other model.  Read carefully to make sure you're following the analogous step in your app.
 
 
 ### Basic
