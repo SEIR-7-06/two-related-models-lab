@@ -1,4 +1,6 @@
-# Lab
+# Lab: Subdocuments/related models
+
+With your partner from yesterday
 
 1. Extend yesterday's lab, so that one model can contain the other
 1. For example, if your models were `Singer` and `Song`: 
