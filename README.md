@@ -9,7 +9,8 @@
 1. Extend yesterday's lab, so that one model can contain the other
 1. For example, if your models were `Singer` and `Song`: 
   * A `Singer` would "contain" `Song`s (just like an `Author` "contains" `Article`s)
-1. See below for details
+
+>See below for details
 
 
 ### Basic
