@@ -30,11 +30,9 @@
 
 ### Bootstrap and/or Partials (and static assets)
 
-If you haven't yet, spend a few minutes reading about [partials](https://www.google.com/search?q=ejs+partials) ([This article](https://medium.freecodecamp.org/how-to-use-ejs-templating-in-a-node-js-application-ea9347a96c65) and [this article](https://scotch.io/tutorials/use-ejs-to-template-your-node-application) look nice.  Then, make some partials for the things that are on every page (Such as... the html `<head>`? maybe a `<header>` with the links to add song, song index, add artist, and artist index? a `<footer>`?).  All these partials should go in a `partials/` folder in your `views` folder and can be included, for example, using something _similar_ but perhaps not _identical_ to the following (note: path to the partial may be slightly different depending on your file structure):
-  ```ejs
-  <% include ../partials/header.ejs %>
-  ```
+* If you haven't yet, spend a few minutes reading about [partials](https://www.google.com/search?q=ejs+partials) ([This article](https://medium.freecodecamp.org/how-to-use-ejs-templating-in-a-node-js-application-ea9347a96c65) and [this article](https://scotch.io/tutorials/use-ejs-to-template-your-node-application) look nice.  Then, make some partials for the things that are on every page (Such as... the html `<head>`? maybe a `<header>` with the links to add song, song index, add artist, and artist index? a `<footer>`?).  All these partials should go in a `partials/` folder in your `views` folder and can be included, for example, using something _similar_ but perhaps not _identical_ to the following (note: path to the partial may be slightly different depending on your file structure): <code><%&nbsp;include&nbsp;../partials/header.ejs&nbsp;%></code>
 
-Use a little [bootstrap](getbootstrap.com) to make your app look nice. 
+* Use a little [bootstrap](getbootstrap.com) to make your app look nice. 
 
-Remember: if you wanna do other/additional CSS, that's a static client-side asset. ([How to include static assets (i.e. images, CSS, client-side JS) in an Express app](https://expressjs.com/en/starter/static-files.html))
+* Remember: if you wanna do other/additional CSS, that's a static client-side asset. ([How to include static assets (i.e. images, CSS, client-side JS) in an Express app](https://expressjs.com/en/starter/static-files.html))
+
