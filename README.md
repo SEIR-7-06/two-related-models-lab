@@ -1,6 +1,5 @@
 ![ga](https://camo.githubusercontent.com/6ca75e52ba7cf640161aefd5355a4fbfff7d5f18/687474703a2f2f6d6f62626f6f6b2e67656e6572616c617373656d622e6c792f67615f636f672e706e67)
 
-# wdi-cc2 _funky-ducks_
 
 ## Lab: Subdocuments/related models
 
