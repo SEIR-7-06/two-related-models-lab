@@ -35,3 +35,5 @@
 * Use a little [bootstrap](getbootstrap.com) to make your app look nice. 
 
 * Remember: if you wanna do other/additional CSS, that's a static client-side asset. ([How to include static assets (i.e. images, CSS, client-side JS) in an Express app](https://expressjs.com/en/starter/static-files.html))
+
+* Implement some cool visual stuff with a library like Velocity or CSS easing/transitions
