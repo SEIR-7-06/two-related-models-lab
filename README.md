@@ -30,7 +30,7 @@
 
 ### Bootstrap and/or Partials (and static assets)
 
-* If you haven't yet, spend a few minutes reading about [partials](https://www.google.com/search?q=ejs+partials) ([This article](https://medium.freecodecamp.org/how-to-use-ejs-templating-in-a-node-js-application-ea9347a96c65) and [this article](https://scotch.io/tutorials/use-ejs-to-template-your-node-application) look nice.  Then, make some partials for the things that are on every page (Such as... the html `<head>`? maybe a `<header>` with the links to add song, song index, add artist, and artist index? a `<footer>`?).  This is one of the key features of templating.
+* If you haven't yet, spend a few minutes reading about [partials](https://www.google.com/search?q=ejs+partials) ([This article](https://medium.freecodecamp.org/how-to-use-ejs-templating-in-a-node-js-application-ea9347a96c65) and [this article](https://scotch.io/tutorials/use-ejs-to-template-your-node-application) look nice).  Then, make some partials for the things that are on every page (Such as... the html `<head>`? maybe a `<header>` with the links to add song, song index, add artist, and artist index? a `<footer>`?).  This is one of the key features of templating.
 
 * Use a little [bootstrap](getbootstrap.com) to make your app look nice. 
 
