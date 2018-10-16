@@ -37,5 +37,5 @@
 * Remember: if you wanna do other/additional CSS, that's a static client-side asset. ([How to include static assets (i.e. images, CSS, client-side JS) in an Express app](https://expressjs.com/en/starter/static-files.html))
 
 * Implement some cool visual stuff with something like:
- * CSS easing/transitions
- * a library like Velocity (remember -- client-side JS is a static asset and can be included in templates with `<script>`)
+  * CSS easing/transitions
+  * a library like Velocity (remember -- client-side JS is a static asset and can be included in templates with `<script>`)
