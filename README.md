@@ -1,28 +1,37 @@
-![ga](https://camo.githubusercontent.com/6ca75e52ba7cf640161aefd5355a4fbfff7d5f18/687474703a2f2f6d6f62626f6f6b2e67656e6572616c617373656d622e6c792f67615f636f672e706e67)
+![ga](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
+# Subdocuments/related models lab
 
-## Lab: Subdocuments/related models
+## With your partner from yesterday:
 
-### With your partner from yesterday:
-
-1. Extend yesterday's lab, so that one model can contain the other
+1. Extend yesterday's lab, so that one model can contain the other, as shown in class.
 1. For example, if your models were `Singer` and `Song`: 
   * A `Singer` would "contain" `Song`s (just like an `Author` "contains" `Article`s)
 
->See below for details.  When we refer to `Singer` we mean whichever of your models form yesterday contains your other model.  Similarly, when we refer to `Song` we refer to the model that is contained by the other model.  Read carefully to make sure you're following the analogous step in your app.
+> When we refer to `Singer` we mean whichever of your models form yesterday contains your other model.  Similarly, when we refer to `Song` we refer to the model that is contained by the other model.  Read each prompt below twice carefully, and think twice about it, to make sure you're following the analogous step in your app.
 
 
-### Basic
+## Basic
 
-1. Add Songs Array to Singer Model
-1. Display Singers on New Song Page
-1. Creating a new Song Pushes a Copy Onto Singer's Songs Array
-1. Display Singer With Link on Song Show Page
-1. Display Singer's Song With Links On Singer Show Page
+1. Add `Song`s array to `Singer` model.
+1. Display `Singer`s on new `Song` page (use a drop down).
+1. Creating a new `Song` should push a copy onto `Singer`'s `Songs` array.
+1. On `Song` show page, also display `Singer` (with link).
+1. On `Singer` show page, display `Singer`'s `Song`s (with links).
 
-### Advanced
+## Advanced
 
-1. Deleting an Song Updates An Singer's Songs List
-1. Updating an Song Updates An Singer's Songs List
-1. Deleting an Singer Deletes The Associated Songs
-1. Change Singer When Editing an Song
+1. Deleting a `Song` updates a `Singer`'s `Song`s list.
+1. Updating a `Song` updates a `Singer`'s `Song`s list.
+1. Deleting a `Singer` should delete the associated `Song`s (this is what 'destroy' means in REST).
+1. Enable `Singer` to be changed when editing a `Song` (use a drop-down). Be sure the 'edits' happen everywhere in the DB.
+
+# Hungry for More
+
+### Bootstrap and/or Partials (and static assets)
+
+If you haven't yet, spend a few minutes reading about [partials](https://www.google.com/search?q=ejs+partials) ([This article](https://medium.freecodecamp.org/how-to-use-ejs-templating-in-a-node-js-application-ea9347a96c65) and [this article](https://scotch.io/tutorials/use-ejs-to-template-your-node-application) look nice.  Then, make some partials for the things that are on every page (Such as... the html `<head>`? maybe a `<header>` with the links to add song, song index, add artist, and artist index? a `<footer>`?).  All these partials should go in a `partials/` folder in your `views` folder and can be included, for example, using something similar to `<% include ../partials/header.ejs %>` (note: path to the partial may be slightly different depending on your file structure).
+
+Use a little [bootstrap](getbootstrap.com) to make your app look nice. 
+
+Remember: if you wanna do other/additional CSS, that's a static client-side asset. ([How to include static assets (i.e. images, CSS, client-side JS) in an Express app](https://expressjs.com/en/starter/static-files.html))
