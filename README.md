@@ -36,3 +36,4 @@
 
 * Remember: if you wanna do other/additional CSS, that's a static client-side asset. ([How to include static assets (i.e. images, CSS, client-side JS) in an Express app](https://expressjs.com/en/starter/static-files.html))
 
+* Add client-side JS that animates page transitions or something using a library like Velocity.
