@@ -26,7 +26,7 @@
 1. Deleting a `Singer` should delete the associated `Song`s (this is what 'destroy' means in REST).
 1. Enable `Singer` to be changed when editing a `Song` (use a drop-down). Be sure the 'edits' happen everywhere in the DB.
 
-# Hungry for More
+## Hungry for More
 
 ### Bootstrap and/or Partials (and static assets)
 
