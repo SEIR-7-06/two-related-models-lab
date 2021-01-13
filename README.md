@@ -4,11 +4,11 @@
 
 ## With your partner from yesterday:
 
-1. Extend yesterday's lab, so that one model can contain the other, as shown in class.
+1. Extend yesterday's lab so that your models have a one-to-many relationship. One model can have many of the other model.
 1. For example, if your models were `Singer` and `Song`: 
-  * A `Singer` would "contain" `Song`s (just like an `Author` "contains" `Article`s)
+  * A `Singer` could have many `Song`s (just like an `Author` has many `Article`s) but a `Song` can have only one `Singer`.
 
-> When we refer to `Singer` we mean whichever of your models form yesterday contains your other model.  Similarly, when we refer to `Song` we refer to the model that is contained by the other model.  Read each prompt below twice carefully, and think twice about it, to make sure you're following the analogous step in your app.
+> When we refer to `Singer` we mean whichever of your models form yesterday has many of the other model.  Similarly, when we refer to `Song` we refer to the model that can only have one of the other.  Read each prompt below twice carefully, and think twice about it, to make sure you're following the analogous step in your app.
 
 
 ## Basic
